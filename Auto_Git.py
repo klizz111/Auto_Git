@@ -288,7 +288,7 @@ class AutoGitUp:
             # 等待 2 秒后同步远程仓库
             logger.info("等待 2 秒后同步本地仓库...")
             time.sleep(2)
-            
+            #
             # 同步本地仓库
             remote = self.repo.remotes[0] if self.repo.remotes else None
             if remote:
